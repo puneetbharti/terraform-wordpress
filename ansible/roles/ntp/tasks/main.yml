@@ -1,0 +1,5 @@
+# install ntp 
+- name: Update repositories cache and install "ntp" package
+  apt:
+    name: ntp
+    update_cache: yes

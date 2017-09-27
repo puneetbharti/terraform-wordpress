@@ -23,9 +23,31 @@ website/node_modules
 *.iml
 *.test
 *.iml
+*.ini
 
 website/vendor
 
 # Test exclusions
 !command/test-fixtures/**/*.tfstate
 !command/test-fixtures/**/.terraform/
+
+# Ansible 
+local-configure.yml
+.vagrant/
+docs/_build/
+roles/plone.plone_server
+roles/jnv.unattended-upgrades
+roles/tersmitten.fail2ban
+roles/ANXS.hostname
+roles/ANXS.apt
+._*
+lib/
+include/
+local/
+tests.out
+*.retry
+*.log
+vbox_host.cfg
+.DS_Store
+*.py[co]
+

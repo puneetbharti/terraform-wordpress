@@ -1,0 +1,9 @@
+---
+- name: Configure ec2 instance
+  hosts: "{{hosts}}"
+  remote_user: ubuntu
+  become: yes
+
+  roles:
+    - hostname
+    - ntp
