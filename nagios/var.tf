@@ -8,7 +8,7 @@ variable "num_instances" {
 }
 
 variable "cluster_app" {
-  default = "wp"
+  default = "nagios"
 }
 
 variable "cluster_vertical" {
@@ -18,7 +18,7 @@ variable "cluster_vertical" {
 
 variable "cluster_role" {
   description = "The name to use for all the cluster resources"
-  default = "blogging"
+  default = "monitoring"
 }
 
 
@@ -28,7 +28,7 @@ variable "instance_type" {
 }
 
 variable "base_ami" {
-  default = "ami-099fe766"
+  default = "ami-3c374c53"
 }
 
 variable "key_name" {
