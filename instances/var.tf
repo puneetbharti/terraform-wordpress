@@ -30,7 +30,7 @@ variable "instance_type" {
 }
 
 variable "base_ami" {
-  default = "ami-3c374c53"
+  default = "ami-099fe766"
 }
 
 variable "key_name" {

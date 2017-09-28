@@ -1,3 +1,7 @@
+# Install python 
+- name: install python
+  raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
+
 # Add Hostname
 - name: Add host name
   hostname: name={{ inventory_hostname }}

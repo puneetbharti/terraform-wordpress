@@ -3,7 +3,13 @@
   hosts: "{{hosts}}"
   remote_user: ubuntu
   become: yes
+  gather_facts: False
 
   roles:
     - hostname
     - ntp
+    - nginx
+    - wordpress
+    - mysql
+    - php
+    - postfix
